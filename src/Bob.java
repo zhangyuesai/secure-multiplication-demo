@@ -99,7 +99,7 @@ public class Bob extends Player {
 
         System.out.println("---------------------------------------");
 
-        System.out.println("If I knew (x * y)_b, then x * y = (x * y)_a + (x * y)_b - d * e");
+        System.out.println("If I knew (x * y)_a, then x * y = (x * y)_a + (x * y)_b - d * e");
         System.out.println();
     }
 
