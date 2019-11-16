@@ -11,18 +11,18 @@ This requirement seems absurd for two numbers' multiplication: if, say, Alice kn
 ## How to run the demo
 Both `Alice` and `Bob` takes an argument as their input for the multiplication:
 ```shell script
-javac Bob.java && Bob 42
+javac Bob.java && java Bob 42
 ```
 
 ```shell script
-javac Alice.java && Alice 27
+javac Alice.java && java Alice 27
 ```
 
 `Server` doesn't take arguments:
 ```shell script
 javac Server.java && java Server
 ```
-Note that you should run `Alice` after `Bob`, and `Server` after `After`; otherwise there would be Sockets issues since these three processes are not multi-threaded.
+Note that you should run `Alice` after `Bob`, and `Server` after `Alice`; otherwise there would be Sockets issues since these three processes are not multi-threaded.
 
 It is recommended that you run the three processes in three vertically aligned terminals. A screenshot of the running demo is shown below.
 
